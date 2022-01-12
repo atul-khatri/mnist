@@ -41,7 +41,7 @@ cb = [es, mc]
 
 his = model.fit(X_train, y_train, epochs=5, validation_split=0.2, callbacks=cb)
 
-model.save("data/bModel.h5")
+model.save("bModel.h5")
 
 ''' model_S = keras.models.load_model("data/bModel.h5")
 
